@@ -1,0 +1,499 @@
+/*=========================================
+SPRIACCS RESPONSIVE STYLESHEET
+==========================================*/
+
+/*==============================
+Large Screens
+==============================*/
+
+@media (max-width:1400px){
+
+    .container{
+
+        width:94%;
+
+    }
+
+}
+
+/*==============================
+Laptop
+==============================*/
+
+@media (max-width:1200px){
+
+    .hero h1{
+
+        font-size:3.8rem;
+
+    }
+
+    .hero-logo{
+
+        width:380px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .portfolio-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .testimonial-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .process-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}
+
+/*==============================
+Tablet
+==============================*/
+
+@media (max-width:992px){
+
+    section{
+
+        padding:90px 0;
+
+    }
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .menu-btn{
+
+        display:block;
+
+    }
+
+    .hero{
+
+        padding-top:150px;
+
+    }
+
+    .hero-grid{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        order:2;
+
+    }
+
+    .hero-right{
+
+        order:1;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero h1{
+
+        font-size:3.2rem;
+
+    }
+
+    .hero p{
+
+        margin:auto;
+
+    }
+
+    .hero-logo{
+
+        width:320px;
+
+    }
+
+    .client-logos{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .stats{
+
+        margin-top:40px;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/*==============================
+Mobile Landscape
+==============================*/
+
+@media (max-width:768px){
+
+    .section-heading h2{
+
+        font-size:2.4rem;
+
+    }
+
+    .hero h1{
+
+        font-size:2.7rem;
+
+    }
+
+    .hero-logo{
+
+        width:260px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .portfolio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .testimonial-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .process-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .client-logos{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .footer-grid img{
+
+        margin:auto auto 20px;
+
+    }
+
+}
+
+/*==============================
+Small Phones
+==============================*/
+
+@media (max-width:576px){
+
+    header{
+
+        padding:0;
+
+    }
+
+    .nav-container{
+
+        height:80px;
+
+    }
+
+    .logo img{
+
+        height:58px;
+
+    }
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2rem;
+
+    }
+
+    .section-heading{
+
+        margin-bottom:45px;
+
+    }
+
+    .cta h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .cta p{
+
+        font-size:1rem;
+
+    }
+
+    .client-logos{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .process-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*==============================
+Very Small Phones
+==============================*/
+
+@media (max-width:380px){
+
+    .hero h1{
+
+        font-size:1.9rem;
+
+    }
+
+    .hero-logo{
+
+        width:200px;
+
+    }
+
+    .btn{
+
+        padding:14px 24px;
+
+        font-size:.9rem;
+
+    }
+
+    .service-card{
+
+        padding:28px;
+
+    }
+
+    .stats div{
+
+        padding:25px;
+
+    }
+
+    .project h3{
+
+        font-size:1.2rem;
+
+    }
+
+}
+
+/*==============================
+Navigation Mobile Menu
+==============================*/
+
+@media (max-width:992px){
+
+    .nav-links.active{
+
+        display:flex;
+
+        position:absolute;
+
+        top:80px;
+
+        left:0;
+
+        width:100%;
+
+        background:#ffffff;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:25px;
+
+        padding:35px 0;
+
+        box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+        border-top:1px solid #eee;
+
+        animation:fadeDown .3s ease;
+
+    }
+
+}
+
+/*==============================
+Better Spacing
+==============================*/
+
+@media (max-width:768px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    .service-card,
+    .project,
+    .testimonial-grid article{
+
+        border-radius:16px;
+
+    }
+
+}
+/*==================================
+FEATURED SECTION RESPONSIVE
+===================================*/
+
+@media (max-width: 991px){
+
+    .featured-section{
+        padding:70px 0;
+    }
+
+    .featured-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .featured-content{
+        text-align:center;
+    }
+
+    .featured-image img{
+        height:380px;
+    }
+
+    .featured-content h2{
+        font-size:2.3rem;
+        line-height:1.25;
+    }
+
+    .featured-meta{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .featured-section{
+        padding:55px 0;
+    }
+
+    .featured-grid{
+        gap:30px;
+    }
+
+    .featured-image img{
+        height:280px;
+    }
+
+    .featured-content h2{
+        font-size:1.9rem;
+    }
+
+    .featured-content p{
+        font-size:1rem;
+    }
+
+}

@@ -1,0 +1,368 @@
+/*==================================
+        PORTFOLIO PAGE
+==================================*/
+
+.portfolio-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(420px,1fr));
+
+    gap:30px;
+
+    margin-top:35px;
+
+}
+
+
+/*==================================
+        PORTFOLIO CARD
+==================================*/
+
+.portfolio-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.portfolio-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+
+
+/*==================================
+        IMAGE
+==================================*/
+
+.portfolio-image{
+
+    height:240px;
+
+    overflow:hidden;
+
+    background:#f5f5f5;
+
+}
+
+.portfolio-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.portfolio-card:hover .portfolio-image img{
+
+    transform:scale(1.05);
+
+}
+
+
+/*==================================
+        CONTENT
+==================================*/
+
+.portfolio-content{
+
+    padding:25px;
+
+}
+
+.portfolio-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+.portfolio-top h3{
+
+    margin:0;
+
+    font-size:1.35rem;
+
+    color:#1d3557;
+
+    line-height:1.4;
+
+}
+
+
+/*==================================
+        CATEGORY
+==================================*/
+
+.category-badge{
+
+    background:#eaf2ff;
+
+    color:#003B95;
+
+    padding:7px 15px;
+
+    border-radius:30px;
+
+    font-size:.82rem;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+
+/*==================================
+        DETAILS
+==================================*/
+
+.portfolio-details{
+
+    border-top:1px solid #edf0f5;
+
+    border-bottom:1px solid #edf0f5;
+
+    padding:18px 0;
+
+    margin-bottom:20px;
+
+}
+
+.detail-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 0;
+
+    font-size:.94rem;
+
+}
+
+.detail-title{
+
+    font-weight:600;
+
+    color:#666;
+
+}
+
+
+/*==================================
+        ACTIONS
+==================================*/
+
+.portfolio-actions{
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.portfolio-actions a{
+
+    text-decoration:none;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    padding:11px 18px;
+
+    border-radius:10px;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+/* VIEW */
+
+.view-btn{
+
+    background:#003B95;
+
+    color:#fff;
+
+}
+
+.view-btn:hover{
+
+    background:#002d73;
+
+}
+
+
+/* EDIT */
+
+.edit-btn{
+
+    background:#f5f7fb;
+
+    color:#333;
+
+}
+
+.edit-btn:hover{
+
+    background:#e6ecf7;
+
+}
+
+
+/* DELETE */
+
+.delete-btn{
+
+    background:#ffe8e8;
+
+    color:#d32f2f;
+
+}
+
+.delete-btn:hover{
+
+    background:#ffd6d6;
+
+}
+
+
+/*==================================
+        EMPTY STATE
+==================================*/
+
+.empty-state{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:80px 40px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.empty-state i{
+
+    font-size:4rem;
+
+    color:#cfd5df;
+
+    margin-bottom:25px;
+
+}
+
+.empty-state h3{
+
+    margin-bottom:12px;
+
+    color:#1d3557;
+
+}
+
+.empty-state p{
+
+    color:#777;
+
+    margin-bottom:30px;
+
+}
+
+
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:992px){
+
+    .portfolio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .portfolio-content{
+
+        padding:20px;
+
+    }
+
+    .portfolio-top{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .detail-row{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:5px;
+
+    }
+
+    .portfolio-actions{
+
+        flex-direction:column;
+
+    }
+
+    .portfolio-actions a{
+
+        width:100%;
+
+    }
+
+}
