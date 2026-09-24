@@ -28,6 +28,22 @@ Newsletter management: view subscribers, export list, bulk-delete entries
 Site settings page for managing global configuration
 Shared layout components (header.php, sidebar.php, topbar.php, footer.php) for a consistent admin UI
 
+## 📸 Screenshots
+
+Here is a complete look at the website views:
+
+### Homepage
+![Homepage](./screenshots/homepage.png)
+
+### App Views & Features
+![Screenshot 1](./screenshots/Screenshot%202026-09-24%20132647.png)
+![Screenshot 2](./screenshots/Screenshot%202026-09-24%20132745.png)
+![Screenshot 3](./screenshots/Screenshot%202026-09-24%20132831.png)
+![Screenshot 4](./screenshots/Screenshot%202026-09-24%20132916.png)
+![Screenshot 5](./screenshots/Screenshot%202026-09-24%20132952.png)
+![Screenshot 6](./screenshots/Screenshot%202026-09-24%20133042.png)
+![Screenshot 7](./screenshots/Screenshot%202026-09-24%20133207.png)
+
 Project Structure
 
 Spriaccs_Final/
