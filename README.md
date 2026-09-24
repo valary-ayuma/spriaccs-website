@@ -11,12 +11,14 @@ Back-end: PHP
 Database: MySQL (schema included at database/spriaccs.sql)
 Front-end: HTML, CSS, JavaScript
 Version control: Git / GitHub
+
 Features
 Public Site
 Home, About, Services, Portfolio, Blog/Article, and Project pages, all served dynamically from the database
 Quote request form for prospective clients
 Newsletter subscribe / unsubscribe flow with status handling
 Privacy Policy and Terms pages
+
 Admin Panel (/admin)
 Authenticated login/logout (auth.php, login.php, logout.php)
 Dashboard overview
@@ -25,6 +27,7 @@ Quote requests: view individual submissions and export
 Newsletter management: view subscribers, export list, bulk-delete entries
 Site settings page for managing global configuration
 Shared layout components (header.php, sidebar.php, topbar.php, footer.php) for a consistent admin UI
+
 Project Structure
 Spriaccs_Final/
 ├── admin/
