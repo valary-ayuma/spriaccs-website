@@ -29,6 +29,7 @@ Site settings page for managing global configuration
 Shared layout components (header.php, sidebar.php, topbar.php, footer.php) for a consistent admin UI
 
 Project Structure
+
 Spriaccs_Final/
 ├── admin/
 │   ├── assets/
