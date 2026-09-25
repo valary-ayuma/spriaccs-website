@@ -44,31 +44,4 @@ Here is a complete look at the website views:
 ![Screenshot 6](./screenshots/Screenshot%202026-09-24%20133042.png)
 ![Screenshot 7](./screenshots/Screenshot%202026-09-24%20133207.png)
 
-Project Structure
 
-Spriaccs_Final/
-├── admin/
-│   ├── assets/
-│   │   ├── css/        # admin.css, dashboard.css, login.css, portfolio.css
-│   │   ├── images/
-│   │   └── js/         # admin.js, portfolio.js, service.js
-│   ├── includes/        # auth.php, connection.php, header.php, sidebar.php, topbar.php, footer.php
-│   ├── dashboard.php
-│   ├── login.php / logout.php
-│   ├── add-*.php, edit-*.php, delete-*.php    # blog, portfolio, service CRUD
-│   ├── bulk-delete-newsletter.php, bulk-delete-quote.php
-│   ├── export-newsletter.php, export-quote.php
-│   ├── newsletter.php, quote.php, services.php, portfolio.php
-│   ├── settings.php, save-settings.php
-│   └── view-project.php, view-quote.php
-├── css/                  # about, animations, blog, portfolio, project, quote, responsive, service, style
-├── js/                   # main.js, newsletter.js, portfolio.js, slider.js
-├── database/
-│   └── spriaccs.sql      # full database schema/dump
-├── includes/              # connection.php, settings.php
-├── png/                   # branding assets, sliders, logos
-├── uploads/               # blog/, logo/, portfolio/ — user-uploaded media
-├── index.php, about.php, services.php, portfolio.php, blog.php, article.php, project.php
-├── quote.php, privacy.php, terms.php
-├── newsletter-subscribe.php, newsletter-unsubscribe.php, newsletter-status.php
-└── .gitignore
